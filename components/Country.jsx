@@ -18,7 +18,7 @@ const Country = ({data, handleSubmit}) => {
                         <li><b>Pais: </b>{`${data?.name.common}`}</li>
                         <li><b>Poblacion: </b>{`${data?.population}`}</li>
                         <li><b>Capital: </b>{`${data?.capital}`}</li>
-                        <li><b>Superficie: </b>{`${data?.area}`}</li>
+                        <li><b>Area: </b>{`${data?.area}`} Km2</li> 
                     </ul>
                     <div className="element">
                     <Form onSubmit={handleSubmit}>
