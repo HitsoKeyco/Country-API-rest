@@ -33,6 +33,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setInputValue(e.target.inputValue.value.trim());
+    e.target.inputValue.value = '';
   };
 
   const handleCloseModal = () => {
